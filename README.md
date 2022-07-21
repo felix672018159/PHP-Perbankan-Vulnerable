@@ -8,9 +8,9 @@
 2. PHP 7.0
 3. Database : MYSQL 10.4.14-MariaDB [Saya menggunakan PHPMyAdmin untuk mengakses database]
 
-#### Cara menggunakan :
+#### Cara menggunakan 🚀 :
 1. Set username dan password sesuai pada [config.php](https://github.com/felix672018159/PHP-Perbankan-Vulnerable/perbankan/config.php)
 <img src="perbankan/images/set-config.png" width="100%">
 
-2. Import database sesuai dengan 
+2. Import database sesuai dengan server database yang digunakan
 <img src="perbankan/images/import-sql.gif" width="100%">
